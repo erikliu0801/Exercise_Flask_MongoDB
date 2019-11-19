@@ -5,16 +5,38 @@ marp: true
 <!-- _color: white -->
 <!-- color: white -->
 ---
-Exercise_Flask_MongoDB
+# Exercise_Flask_MongoDB
+1. 
+---
+# Concepts
+- ORM(Object-relational mapping)
 
-## View
+---
+## Flask
+
+## SQLALchemy
+<!-- ```
+# create db.py
+from flask_sqlalchemy improt SQLAlchemy
+db = SQLAlchemy()
+
+# init flask_sqlalchemy
+from common.db import db
+from common.ma import ma
+db.init_app(app)
+ma.init_app(app)
+``` -->
+
+
+## Tech
+### View
 - Flask 
 - Data Visualization: pyecharts or something like
 
-## Model
+### Model
 - MongoDB
 
-## Controller
+### Controller
 ---
 Source:
 * Flask
@@ -104,11 +126,11 @@ Source:
     - [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
     - [Python Web Flask實戰開發教學 - SQLAlchemy](https://blog.techbridge.cc/2017/08/12/python-web-flask101-tutorial-sqlalchemy-orm-database-models/)
     - [搞懂如何導入flask-SQLAlemy](https://ithelp.ithome.com.tw/articles/10205067)
-
+---
 * Template
     - [Jinja2](https://jinja.palletsprojects.com/en/2.10.x/)
----
 
+---
 * Marp
   - [Marp](https://marp.app/)
   - [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
