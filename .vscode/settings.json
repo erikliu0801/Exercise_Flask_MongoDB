@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "env01/bin/python3.6",
+    "sqltools.connections": [
+        {
+            "database": "opendata",
+            "dialect": "MySQL",
+            "isActive": false,
+            "isConnected": false,
+            "name": "Local instance 3306",
+            "password": "1234",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}
